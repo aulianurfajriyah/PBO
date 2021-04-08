@@ -1,0 +1,12 @@
+C:\Users\Anas\source\OOPFitin\OOPHargaKorsa\KorsaLibrary\bin\Debug\KorsaLibrary.dll
+C:\Users\Anas\source\OOPFitin\OOPHargaKorsa\KorsaLibrary\bin\Debug\KorsaLibrary.pdb
+C:\Users\Anas\source\OOPFitin\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.csprojAssemblyReference.cache
+C:\Users\Anas\source\OOPFitin\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Anas\source\OOPFitin\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.dll
+C:\Users\Anas\source\OOPFitin\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.pdb
+C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\bin\Debug\KorsaLibrary.dll
+C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\bin\Debug\KorsaLibrary.pdb
+C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.csprojAssemblyReference.cache
+C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.dll
+C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.pdb
