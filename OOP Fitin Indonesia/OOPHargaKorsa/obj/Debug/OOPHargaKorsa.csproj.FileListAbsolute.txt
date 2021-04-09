@@ -24,3 +24,31 @@ C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\OOPHargaKorsa\obj\Debug\OOPHargaKor
 C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.csproj.CopyComplete
 C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.exe
 C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.pdb
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\OOPHargaKorsa.exe.config
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\OOPHargaKorsa.exe
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\OOPHargaKorsa.pdb
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\KorsaLibrary.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\KorsaLibrary.pdb
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.csprojAssemblyReference.cache
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.Form1.resources
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.Properties.Resources.resources
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.csproj.GenerateResource.cache
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.csproj.CoreCompileInputs.cache
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.csproj.CopyComplete
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.exe
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.pdb
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\MySql.Data.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\Google.Protobuf.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\Zstandard.Net.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\Renci.SshNet.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\System.Memory.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\System.Buffers.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\bin\Debug\MySql.Data.xml
+C:\Users\Anas\source\repos\PBO\PBO\OOP Fitin Indonesia\OOPHargaKorsa\obj\Debug\OOPHargaKorsa.exe.config
