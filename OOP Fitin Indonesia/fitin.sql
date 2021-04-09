@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 09, 2021 at 05:49 PM
+-- Generation Time: Apr 10, 2021 at 01:23 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -35,15 +35,6 @@ CREATE TABLE `production` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `production`
---
-
-INSERT INTO `production` (`Id`, `Name`, `Company`, `Contact`) VALUES
-(1, 'Aulia Rahmatsani', 'Marketing', '123456'),
-(2, 'Aulia Nur Fajriyah', 'bismillah', '345678'),
-(3, 'Dwi', 'Fitin Indonesia', '56789');
-
---
 -- Indexes for dumped tables
 --
 
@@ -51,7 +42,7 @@ INSERT INTO `production` (`Id`, `Name`, `Company`, `Contact`) VALUES
 -- Indexes for table `production`
 --
 ALTER TABLE `production`
-  ADD UNIQUE KEY `Id` (`Id`);
+  ADD PRIMARY KEY (`Id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -61,7 +52,7 @@ ALTER TABLE `production`
 -- AUTO_INCREMENT for table `production`
 --
 ALTER TABLE `production`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

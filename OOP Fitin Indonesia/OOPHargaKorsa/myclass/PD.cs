@@ -42,7 +42,7 @@ namespace OOPHargaKorsa.myclass
             con.Open();
             using (MySqlCommand cmd = new MySqlCommand())
             {
-                cmd.CommandText = "INSERT INTO `production`(`Id`, `Name`, `Company`, `Contact`) VALUES(@id,@name,@company,@contact)";
+                cmd.CommandText = "INSERT INTO `production`(`Name`, `Company`, `Contact`) VALUES(@name,@company,@contact)";
                 cmd.CommandType = CommandType.Text;
                 cmd.Connection = con;
 
