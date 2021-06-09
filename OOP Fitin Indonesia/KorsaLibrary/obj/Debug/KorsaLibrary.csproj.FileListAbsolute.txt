@@ -10,3 +10,11 @@ C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary
 C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.dll
 C:\Users\Anas\source\repos\PBO\OOPHargaKorsa\KorsaLibrary\obj\Debug\KorsaLibrary.pdb
+D:\FitinApp\PBO\OOP Fitin Indonesia\KorsaLibrary\bin\Debug\KorsaLibrary.dll
+D:\FitinApp\PBO\OOP Fitin Indonesia\KorsaLibrary\bin\Debug\KorsaLibrary.pdb
+D:\FitinApp\PBO\OOP Fitin Indonesia\KorsaLibrary\obj\Debug\KorsaLibrary.csprojAssemblyReference.cache
+D:\FitinApp\PBO\OOP Fitin Indonesia\KorsaLibrary\obj\Debug\KorsaLibrary.csproj.CoreCompileInputs.cache
+D:\FitinApp\PBO\OOP Fitin Indonesia\KorsaLibrary\obj\Debug\KorsaLibrary.dll
+D:\FitinApp\PBO\OOP Fitin Indonesia\KorsaLibrary\obj\Debug\KorsaLibrary.pdb
+D:\FitinApp\PBO\OOP Fitin Indonesia\KorsaLibrary\bin\Debug\QRCoder.dll
+D:\FitinApp\PBO\OOP Fitin Indonesia\KorsaLibrary\obj\Debug\KorsaLibrary.csproj.CopyComplete

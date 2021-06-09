@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -98,6 +99,34 @@ namespace OOPHargaKorsa
             {
                 MessageBox.Show("You just click the header. Don't Do That!");
             }
+        }
+
+        private void btnGenerateQR_Click(object sender, EventArgs e)
+        {
+            QRCoder.QRCodeGenerator QG = new QRCoder.QRCodeGenerator();
+            var Data = QG.CreateQrCode(e_txtName.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
+            var code = new QRCoder.QRCode(Data);
+            picQR.Image = code.GetGraphic(50);
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            PrintDialog pd = new PrintDialog();
+            PrintDocument pDoc = new PrintDocument();
+            pDoc.PrintPage += PrintPicture;
+            pd.Document = pDoc;
+            if (pd.ShowDialog() == DialogResult.OK)
+            {
+                pDoc.Print();
+            }
+        }
+
+        private void PrintPicture(object sender, PrintPageEventArgs e)
+        {
+            Bitmap bmp = new Bitmap(picQR.Width, picQR.Height);
+            picQR.DrawToBitmap(bmp, new Rectangle(0, 0, picQR.Width, picQR.Height));
+            e.Graphics.DrawImage(bmp, 0, 0);
+            bmp.Dispose();
         }
     }
 }

@@ -41,14 +41,18 @@ namespace OOPHargaKorsa
             this.label4 = new System.Windows.Forms.Label();
             this.cmbBahan = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.txtCompany = new System.Windows.Forms.TextBox();
-            this.txtContact = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
+            this.txtContact = new System.Windows.Forms.TextBox();
+            this.txtCompany = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnGenerateQR = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.txtID = new System.Windows.Forms.Label();
             this.e_txtContact = new System.Windows.Forms.TextBox();
             this.e_txtCompany = new System.Windows.Forms.TextBox();
             this.e_txtName = new System.Windows.Forms.TextBox();
@@ -56,15 +60,17 @@ namespace OOPHargaKorsa
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.txtID = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
+            this.picQR = new System.Windows.Forms.PictureBox();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.btnPrint = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picQR)).BeginInit();
             this.SuspendLayout();
             // 
             // txtJumlahItem
@@ -179,54 +185,6 @@ namespace OOPHargaKorsa
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ORDER";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 33);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Nama";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(17, 61);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Company";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 89);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 13);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Contact";
-            // 
-            // txtName
-            // 
-            this.txtName.Location = new System.Drawing.Point(103, 33);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(258, 20);
-            this.txtName.TabIndex = 3;
-            // 
-            // txtCompany
-            // 
-            this.txtCompany.Location = new System.Drawing.Point(103, 61);
-            this.txtCompany.Name = "txtCompany";
-            this.txtCompany.Size = new System.Drawing.Size(258, 20);
-            this.txtCompany.TabIndex = 4;
-            // 
-            // txtContact
-            // 
-            this.txtContact.Location = new System.Drawing.Point(103, 89);
-            this.txtContact.Name = "txtContact";
-            this.txtContact.Size = new System.Drawing.Size(258, 20);
-            this.txtContact.TabIndex = 5;
-            // 
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(161, 133);
@@ -237,8 +195,57 @@ namespace OOPHargaKorsa
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // txtContact
+            // 
+            this.txtContact.Location = new System.Drawing.Point(103, 89);
+            this.txtContact.Name = "txtContact";
+            this.txtContact.Size = new System.Drawing.Size(258, 20);
+            this.txtContact.TabIndex = 5;
+            // 
+            // txtCompany
+            // 
+            this.txtCompany.Location = new System.Drawing.Point(103, 61);
+            this.txtCompany.Name = "txtCompany";
+            this.txtCompany.Size = new System.Drawing.Size(258, 20);
+            this.txtCompany.TabIndex = 4;
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(103, 33);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(258, 20);
+            this.txtName.TabIndex = 3;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(17, 89);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 13);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Contact";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(17, 61);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Company";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(17, 33);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Nama";
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnGenerateQR);
             this.groupBox2.Controls.Add(this.btnDelete);
             this.groupBox2.Controls.Add(this.btnEdit);
             this.groupBox2.Controls.Add(this.txtID);
@@ -254,6 +261,45 @@ namespace OOPHargaKorsa
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "EDIT";
+            // 
+            // btnGenerateQR
+            // 
+            this.btnGenerateQR.Location = new System.Drawing.Point(267, 133);
+            this.btnGenerateQR.Name = "btnGenerateQR";
+            this.btnGenerateQR.Size = new System.Drawing.Size(94, 23);
+            this.btnGenerateQR.TabIndex = 9;
+            this.btnGenerateQR.Text = "Get QR Code";
+            this.btnGenerateQR.UseVisualStyleBackColor = true;
+            this.btnGenerateQR.Click += new System.EventHandler(this.btnGenerateQR_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(184, 133);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 8;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(103, 133);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.TabIndex = 7;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // txtID
+            // 
+            this.txtID.AutoSize = true;
+            this.txtID.Location = new System.Drawing.Point(17, 133);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(18, 13);
+            this.txtID.TabIndex = 7;
+            this.txtID.Text = "ID";
             // 
             // e_txtContact
             // 
@@ -313,15 +359,6 @@ namespace OOPHargaKorsa
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "DATA";
             // 
-            // txtID
-            // 
-            this.txtID.AutoSize = true;
-            this.txtID.Location = new System.Drawing.Point(17, 133);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(18, 13);
-            this.txtID.TabIndex = 7;
-            this.txtID.Text = "ID";
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
@@ -334,31 +371,36 @@ namespace OOPHargaKorsa
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // btnEdit
+            // picQR
             // 
-            this.btnEdit.Location = new System.Drawing.Point(103, 133);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
-            this.btnEdit.TabIndex = 7;
-            this.btnEdit.Text = "Edit";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            this.picQR.Location = new System.Drawing.Point(858, 127);
+            this.picQR.Name = "picQR";
+            this.picQR.Size = new System.Drawing.Size(254, 244);
+            this.picQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picQR.TabIndex = 16;
+            this.picQR.TabStop = false;
             // 
-            // btnDelete
+            // printDialog1
             // 
-            this.btnDelete.Location = new System.Drawing.Point(286, 133);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 8;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            this.printDialog1.UseEXDialog = true;
+            // 
+            // btnPrint
+            // 
+            this.btnPrint.Location = new System.Drawing.Point(952, 403);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(75, 23);
+            this.btnPrint.TabIndex = 18;
+            this.btnPrint.Text = "Print";
+            this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 733);
+            this.ClientSize = new System.Drawing.Size(1118, 733);
+            this.Controls.Add(this.btnPrint);
+            this.Controls.Add(this.picQR);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -381,6 +423,7 @@ namespace OOPHargaKorsa
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picQR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -418,6 +461,11 @@ namespace OOPHargaKorsa
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Label txtID;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnGenerateQR;
+        private System.Windows.Forms.PictureBox picQR;
+        private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.Button btnPrint;
     }
 }
 
